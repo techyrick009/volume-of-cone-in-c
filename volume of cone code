@@ -1,0 +1,43 @@
+
+/*
+ * 1000+ C programs + tutorials
+ *
+ *
+ * 12_calculate_volume_of_cone.c
+ *
+ *
+ *  Created on: Oct 20, 2014
+ *  Author: Code2care.org
+ */
+
+#include <stdio.h>
+//#include <conio.h>
+
+void main() {
+
+    int height;
+    int radius;
+    float volume_of_cone;
+    float PI = 3.142;
+
+//	clrscr();
+
+	printf(" Program to calculate Volume of a Cone :  ");
+
+	printf("\n\n Enter the Radius of Cone : ");
+	scanf("%d", &radius);
+    
+    printf("\n\n Enter the Height of Cone : ");
+	scanf("%d", &height);
+    
+    
+    volume_of_cone = PI*radius*radius*height;
+
+
+	printf("\n\n Volume of Cone with Radius as %d and Height as %d = %f",radius,height,volume_of_cone);
+
+//	getch();
+
+
+
+}
